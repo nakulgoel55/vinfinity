@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'reac'
 
-const HomePage = () => {
+const homePage = () => {
     return(
 
         <div className="home-page">
-            <video autoPlay loop muted className="video-background">
-                <source src="/videos/10.mp4" type="video/mp4" />
+            <video autoPlay muted loop playsInline>
+                <source src="videos/10.mp4" type="video/mp4" />
             </video>
             <div className="text-overlay">
                 <h1>Welcome to Version Infinity</h1>
@@ -14,4 +14,5 @@ const HomePage = () => {
         );
     };
 
-export default HomePage;
+    )
+}

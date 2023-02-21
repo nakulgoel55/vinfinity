@@ -3,7 +3,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div className="home-page">
-      <video autoPlay loop muted playsInline className="video-background">
+      <video autoPlay={true} loop muted playsInline className="video-background">
         <source src="videos/10.mp4" type="video/mp4" />
       </video>
       <div className="text-overlay">
